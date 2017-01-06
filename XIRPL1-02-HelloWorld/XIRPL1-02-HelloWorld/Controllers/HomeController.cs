@@ -8,10 +8,12 @@ namespace XIRPL1_02_HelloWorld.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Hello()
         {
             return View();
         }
+
+
 
         public ActionResult About()
         {
